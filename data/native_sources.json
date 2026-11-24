@@ -1,0 +1,22 @@
+{
+  "beijing": {
+    "name": "beijing",
+    "doi": "10.24432/C5RK5G",
+    "provider": "https://archive.ics.uci.edu/dataset/501/beijing",
+    "reported_provider_access": "CC BY 4.0",
+    "url": "https://codeload.github.com/KM-drago/Beijing-Multi-Site-Air-Quality-Data/zip/refs/heads/main",
+    "filename": "beijing-provider-files-mirror.zip",
+    "sha256": "b7a147f86e301c70dea21b620e1f65f7bed0c70f4b175a5ba7594ac5ea3d2bd1",
+    "size": 8774281
+  },
+  "load": {
+    "name": "load",
+    "doi": "10.24432/C58C86",
+    "provider": "https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014",
+    "reported_provider_access": "CC BY 4.0",
+    "url": "https://raw.githubusercontent.com/laiguokun/multivariate-time-series-data/master/electricity/electricity.txt.gz",
+    "filename": "lstnet_electricity_hourly.txt.gz",
+    "sha256": "3c4c069588198c1fcc95cace7bb69c99922129edfd673b7286661dad20badefa",
+    "size": 17993794
+  }
+}

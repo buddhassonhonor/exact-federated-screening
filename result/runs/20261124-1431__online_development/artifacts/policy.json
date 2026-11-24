@@ -1,0 +1,106 @@
+{
+  "selection": {
+    "narrow": {
+      "medium": "dense-best",
+      "small": "dense-best",
+      "wide": "hybrid-25"
+    },
+    "moderate": {
+      "medium": "dense-best",
+      "small": "dense-best",
+      "wide": "hybrid-25"
+    },
+    "interactive": {
+      "medium": "dense-best",
+      "small": "dense-best",
+      "wide": "dense-best"
+    }
+  },
+  "development_objectives": {
+    "narrow": {
+      "medium": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.0305533883419022,
+        "nra-8": 2.4369761506173653,
+        "partial-zone": 2.4397281864860734
+      },
+      "small": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.0030449888667028,
+        "nra-8": 1.650695448522648,
+        "partial-zone": 2.3259174939866885
+      },
+      "wide": {
+        "dense-best": 1.0,
+        "hybrid-25": 0.6771753074435384,
+        "nra-8": 4.117510483874809,
+        "partial-zone": 1.9391620849568316
+      }
+    },
+    "moderate": {
+      "medium": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.2311248744218086,
+        "nra-8": 3.4987699989464276,
+        "partial-zone": 2.053799360764627
+      },
+      "small": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.000594504326015,
+        "nra-8": 1.7200650077802777,
+        "partial-zone": 2.0487434343301505
+      },
+      "wide": {
+        "dense-best": 1.0,
+        "hybrid-25": 0.9460740220373623,
+        "nra-8": 7.247932637310604,
+        "partial-zone": 1.855283990000662
+      }
+    },
+    "interactive": {
+      "medium": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.370565993609652,
+        "nra-8": 4.037065869861171,
+        "partial-zone": 1.9714694223248874
+      },
+      "small": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.0000249329942836,
+        "nra-8": 1.747405872952622,
+        "partial-zone": 1.9962728027058223
+      },
+      "wide": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.4272640943373796,
+        "nra-8": 13.569196561447379,
+        "partial-zone": 1.9818065380981533
+      }
+    }
+  },
+  "profiles": {
+    "narrow": [
+      0.25,
+      2.0,
+      1.0
+    ],
+    "moderate": [
+      2.0,
+      5.0,
+      3.0
+    ],
+    "interactive": [
+      20.0,
+      14.0,
+      7.0
+    ]
+  },
+  "objective": "Mean across cases of paired median and p90 normalized modeled time, equal weight",
+  "development_trace_sha256": "3e204d0a45db8e700f2c6c09f497663f3b8688262cf6bef0a2fa35e7165eadf4",
+  "alternatives": [
+    "dense-best",
+    "hybrid-25",
+    "nra-8",
+    "partial-zone"
+  ]
+}

@@ -1,0 +1,49 @@
+id,name,source,n,warm,source_columns,numeric_multilevel,encoded_columns,positive,evaluation_positive_fraction,source_group_count,target,excluded,access,derived_sha256
+Airlines,Airlines,https://capymoa.org/v0.15.1/api/modules/capymoa.datasets.html,180000,36000,7,2,41,1,0.33355555555555555,290,Delay,[],Public download. Check upstream dataset terms before redistribution.,7bfcb69f9b23605f51c801dad713e572e76519b3ad86370f9b23d80a672dba85
+CovtypeNorm,CovtypeNorm,https://capymoa.org/v0.15.1/api/modules/capymoa.datasets.html,180000,36000,54,10,116,2,0.7316111111111111,1,class,[],Public download. Check upstream dataset terms before redistribution.,767377da22d2eb7eab7123e72d4aba33d1452e1459ddf301d10a6390c278518c
+Electricity,Electricity,https://capymoa.org/v0.15.1/api/modules/capymoa.datasets.html,45311,9062,8,4,22,1,0.4244255013931419,7,class,[],Public download. Check upstream dataset terms before redistribution.,e27a68a1e00fdd7cb1820c19d057f86913aa9310a7fedb8c535d6ed7a171240b
+Occupancy,Occupancy,https://archive.ics.uci.edu/dataset/357/occupancy+detection,20560,4112,5,5,14,1,0.19637645914396887,1,Occupancy,"['row ID', 'date']",CC BY 4.0,3f091a53f84024cc4da1f348648797fddc5f0369ea51f7871010fafef0e268aa
+openml-1049,pc4,https://www.openml.org/d/1049,1458,291,37,36,101,False,0.8817480719794345,1,c,[],Public,46ced7e2ee4104c38836d0cb054fba5fbba2fc130e9ec1c224bbed5271f7c468
+openml-1050,pc3,https://www.openml.org/d/1050,1563,312,37,37,107,False,0.8976818545163869,1,c,[],Public,7c8879c53a1a04522807cf4e8669a55bb4d5a942942ddc16850f640bfb3f2437
+openml-1053,jm1,https://www.openml.org/d/1053,10885,2177,21,21,64,False,0.8090261828203951,1,defects,[],Public,f5244b47c474d0d2a4d7d6397d57102e1667548a35461cfdbbaf7555db3e2380
+openml-1067,kc1,https://www.openml.org/d/1067,2109,421,21,21,53,False,0.8364928909952607,1,defects,[],Public,d31a36cf46d3cde53724b5435a349bc31313e07896d0b7a789c67a74dc5d7db0
+openml-1068,pc1,https://www.openml.org/d/1068,1109,221,21,21,60,False,0.9324324324324325,1,defects,[],Public,063c08f6d7d44b764952d148e4ea2d132027daf0be0ef87c6c2a31eedee02a05
+openml-1120,MagicTelescope,https://www.openml.org/d/1120,19020,3804,10,10,30,g,0.6457018927444795,1,class:,['ID'],Public,6db1ffdaab0f4ebf2d849f53001c4244c920e03f4a72629789917c321f559959
+openml-12,mfeat-factors,https://www.openml.org/d/12,2000,400,216,216,648,5,0.096875,1,class,[],Public,c576b8276b75005cd5993a072215d87b54e607a487aecb1780e067aaf1f34f48
+openml-1461,bank-marketing,https://www.openml.org/d/1461,32000,6400,15,6,50,1,0.8826171875,1,Class,['V12'],Public,57e721e5010cbfc58239a1cdd462d730ddfa0a933856cc049677bbc5ab4c6442
+openml-1462,banknote-authentication,https://www.openml.org/d/1462,1372,274,4,4,12,1,0.5601092896174863,1,Class,[],Public,e4ad88035db05ba501f836ae437726ead3496bdc29ea0ccd69bc295b5a1c70bb
+openml-1485,madelon,https://www.openml.org/d/1485,2600,520,500,500,1491,1,0.49903846153846154,1,Class,[],Public,e7e7217838a3a39006dfeb1e785f4206474ad5292a4a1e32a8fe5544e5cac6b2
+openml-1486,nomao,https://www.openml.org/d/1486,32000,6400,118,89,233,2,0.7133203125,1,Class,[],Public,1bad1bbb12b060e493189b0436cbdc44df09f2c949cfb398f1b920a1e84d6349
+openml-1487,ozone-level-8hr,https://www.openml.org/d/1487,2534,506,72,72,215,1,0.9319526627218935,1,Class,[],Public,e9a0e7a3d494195516df3ebc36a4a53051e420984c83f38689344c379e79e3d1
+openml-1489,phoneme,https://www.openml.org/d/1489,5404,1080,5,5,15,1,0.7072155411655874,1,Class,[],Public,990ecc3913d535e8a453b56b5e47c545a095df7199098e3c9d00e0363583b528
+openml-1494,qsar-biodeg,https://www.openml.org/d/1494,1055,211,41,37,96,1,0.6552132701421801,1,Class,[],Public,f41ce7433e512faccb5705ffd315c6ff1e14ab964d54b2f8d6759d732c02e375
+openml-1497,wall-robot-navigation,https://www.openml.org/d/1497,5456,1091,24,24,72,1,0.4038946162657503,1,Class,[],Public,658432800dc92f34e763b731dbaa641ad92fe2fe87c364cc36e2a9721fe09bbe
+openml-1504,steel-plates-fault,https://www.openml.org/d/1504,1941,388,27,25,78,1,0.652929813264649,1,Class,"['V28', 'V29', 'V30', 'V31', 'V32', 'V33']",Public,4ed54f3060fac5dcab0732e7d319e91f3097587414fd664851226eb861221310
+openml-179,adult,https://www.openml.org/d/179,32000,6400,14,2,81,<=50K,0.76140625,1,class,[],Public,2f711ef74a5e802e3bf40cc59dff95ccc2824cffb776dc8b8c68cec79952a29a
+openml-181,yeast,https://www.openml.org/d/181,1484,296,8,7,20,NUC,0.281986531986532,1,class_protein_localization,[],Public,9bb1ba1507f2bced4f9f1529cec1272cc4ad04ce03e848270ce0f3bc4b0c408f
+openml-182,satimage,https://www.openml.org/d/182,6430,1286,36,36,108,7.,0.23133748055987557,1,class,[],Public,5aec585e088bfe40c749ade0eed95a92301922f1f16bc409f64c70ce08bd4f54
+openml-184,kropt,https://www.openml.org/d/184,28056,5611,6,0,40,fourteen,0.16355535754065492,1,game,[],Public,cd1cb698bd87f4aa77be942a21863bf992c2be8a759c404626ef147f08392d55
+openml-185,baseball,https://www.openml.org/d/185,1340,268,16,15,53,0,0.9085820895522388,1,Hall_of_Fame,['Player'],Public,83996d00b7573865a6c5313d7156c6e5846dbc1133144e51d6f300126869b14e
+openml-21,car,https://www.openml.org/d/21,1728,345,6,0,21,unacc,0.702819956616052,1,class,[],Public,40afb704b605cd89dcd73a37a93e5ce4deaae241c356f416db264e8bb5f340d9
+openml-23,cmc,https://www.openml.org/d/23,1473,294,9,2,28,1,0.4300254452926209,1,Contraceptive_method_used,[],Public,a74dc378845fa4bc9b60b1b8796cef0f304f2d178ce461feb3e1d5af034693cf
+openml-24,mushroom,https://www.openml.org/d/24,8124,1624,22,0,107,e,0.5163076923076924,1,class,[],Public,1fd1e98c84d10f66aa79a32d3563ecd0dd58b453887ca5d8b5212b48b268197d
+openml-28,optdigits,https://www.openml.org/d/28,5620,1124,64,56,149,2,0.09719750889679715,1,class,[],Public,aacf60106bc71e6c57bdd1772f58e2d9667831316b769e416151a862f3ff5172
+openml-3,kr-vs-kp,https://www.openml.org/d/3,3196,639,36,0,72,nowin,0.47086429409464214,1,class,[],Public,e325026793b61c37a42044ae7035577bfd39242c8dd0a460d7cffb2baec65578
+openml-307,vowel,https://www.openml.org/d/307,990,198,12,10,40,hYd,0.08333333333333333,1,Class,[],Public,d454c4d7526dc352afbd6558239e176fac38df8bb404d307d0e70cb43c2d5e7b
+openml-31,credit-g,https://www.openml.org/d/31,1000,200,20,6,71,good,0.7075,1,class,[],Public,191993d8640725ba52aaa2687c0194a5028ceb70654b07bb54b3824673a556e4
+openml-312,scene,https://www.openml.org/d/312,2407,481,294,294,882,0,0.8203530633437176,1,Urban,"['Beach', 'FallFoliage', 'Field', 'Mountain', 'Sunset']",Public,3ea881c61143dbebd5917f9de11fb0ccf8eeb9e039bcbd35dfe383298d18236a
+openml-32,pendigits,https://www.openml.org/d/32,10992,2198,16,16,48,6,0.09370025017057085,1,class,[],Public,58dab06fe3110f867491b3d7a6b250e04dd6677bd9a72e608b5339c31e4cebc1
+openml-36,segment,https://www.openml.org/d/36,2310,462,19,18,51,path,0.14015151515151514,1,class,[],Public,fd6cf1924e144df46f56ac790bd9739c71e45c52574c71cc6265f3ef001e0c62
+openml-38,sick,https://www.openml.org/d/38,3772,754,29,6,70,negative,0.9390324718356527,1,Class,[],Public,f4ad7a10546758b72fabb6664dbe56fe9c3e1798bf01b7ef860aaf511cf8c940
+openml-40701,churn,https://www.openml.org/d/40701,5000,1000,20,16,62,0,0.8595,1,class,[],public,ae27aa38d3ebbe2d9c64b198f438273f4905c7558782e4320717978f86d506fd
+openml-40983,wilt,https://www.openml.org/d/40983,4839,967,5,5,15,1,0.9457644628099173,1,class,[],Public,6b537202d3c145e1dd8ad079fc5a8baa172570b96da588f1f87d939a61f9a2bf
+openml-42477,default-of-credit-card-clients,https://www.openml.org/d/42477,30000,6000,23,22,60,0,0.778,1,y,['id'],CC0,644c38e2be3800441333ef8859e0b7e5f80fe2bd077534763ec9fbfeac81a99f
+openml-44,spambase,https://www.openml.org/d/44,4601,920,57,57,79,0,0.6120619396903015,1,class,[],Public,10de3cd71bcc718106246d4bfb3e4f6885a5320199afa861debcf2fc55a0f492
+openml-44130,eye_movements,https://www.openml.org/d/44130,7608,1521,20,20,58,0,0.4990964350254641,1,label,[],Public,b589fbaaab4aa860004e0af1afe6b93836ab4b68c409fd23e7d0fc7c58feef98
+openml-458,analcatdata_authorship,https://www.openml.org/d/458,841,168,69,69,205,London,0.3521545319465082,1,Author,['BookID'],Public,b8d4f4fa8080e42a38125f90b098ba252e3231cd54ead2dc4ba1a933b2188c63
+openml-46,splice,https://www.openml.org/d/46,3190,638,60,0,243,N,0.5121473354231975,1,Class,['Instance_name'],Public,19665cfa8cd943cff2d8d25915a1d595a314e348d3fbdbf658e4437cbb6f27d2
+openml-50,tic-tac-toe,https://www.openml.org/d/50,958,191,9,0,27,positive,0.651890482398957,1,Class,[],Public,a3ac0a7ed9d765e640c98334418265e0194e9ccf9f668e994ec54e9239fb6d32
+openml-54,vehicle,https://www.openml.org/d/54,846,169,18,18,54,opel,0.24372230428360414,1,Class,[],Public,c2f2d78930c79e9936bde431ffc155bbfcd0512fb7d523182aaeb4ad4aefe047
+openml-6,letter,https://www.openml.org/d/6,20000,4000,16,16,46,D,0.038625,1,class,[],Public,6bf3a1f049f1b9a98dc4319b0d972c760113b8bfd7809bc6a2c0fbffeb35f768
+PokerHand,PokerHand,https://capymoa.org/v0.15.1/api/modules/capymoa.datasets.html,80000,16000,10,0,60,2,0.423015625,1,Class,[],Public download. Check upstream dataset terms before redistribution.,708b8f25b75de960c84413b5640d9c3e9e0ec57dde20a86b8498550646087e77
+Sensor,Sensor,https://capymoa.org/v0.15.1/api/modules/capymoa.datasets.html,260000,52000,5,5,15,1,0.5042740384615385,1,class,[],Public download. Check upstream dataset terms before redistribution.,a356e3d852ccd6583b40321919bdec6fc3e07bcedbe80abcfe02f6f16d1dbbac

@@ -1,0 +1,19 @@
+{
+  "verified_native_rank_rounds": 220,
+  "verified_policy_sha256": "4b6d0cf405ba1587e5e08b41caf1e1f9fcff507903a0d5d326cfa9028872888d",
+  "verification_scope": "220 native rank rounds",
+  "tcp": {
+    "20261124-1350__tracking_tcp": [
+      1470,
+      8004
+    ],
+    "20261124-1354__tracking_tcp_low": [
+      336,
+      2580
+    ],
+    "20261124-1357__tracking_tcp_endpoint": [
+      168,
+      2580
+    ]
+  }
+}

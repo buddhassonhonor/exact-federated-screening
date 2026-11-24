@@ -1,0 +1,1525 @@
+{
+  "development": {
+    "rows": 99770,
+    "public_medians": {
+      "absolute": 1.294875454444362,
+      "anchor": 1.112519872875034,
+      "bound": 1.2682327206267008,
+      "dense-best": 1.0,
+      "hybrid-25": 1.0075991603600807,
+      "hybrid-50": 1.1989530625268818,
+      "hybrid-75": 1.2640008242880598,
+      "lossless": 1.0065267557498294,
+      "nra-8": 2.1727808708260774,
+      "safe-zone": 2.156334091517711,
+      "tput": 1.9710575297713304
+    },
+    "width": {
+      "32": {
+        "absolute": 0.46499259621960476,
+        "anchor": 0.4470606663604345,
+        "bound": 0.5439062206521075,
+        "dense-best": 1.0,
+        "hybrid-25": 1.0,
+        "hybrid-50": 0.5374693240685657,
+        "hybrid-75": 0.5374693240685657,
+        "lossless": 1.0,
+        "nra-8": 0.6042910948341043,
+        "safe-zone": 0.7905049992432339,
+        "tput": 0.6353774703493806
+      },
+      "128": {
+        "absolute": 0.16289061654701723,
+        "anchor": 0.3903627341186005,
+        "bound": 0.21841683550719404,
+        "dense-best": 1.0,
+        "hybrid-25": 0.21301044565730973,
+        "hybrid-50": 0.21301044565730973,
+        "hybrid-75": 0.21301044565730973,
+        "lossless": 1.0002046802854836,
+        "nra-8": 0.2266157497109828,
+        "safe-zone": 0.7680849887394834,
+        "tput": 0.21608786342731606
+      },
+      "512": {
+        "absolute": 0.08017219648616293,
+        "anchor": 0.38796680435855324,
+        "bound": 0.1133306842191201,
+        "dense-best": 1.0,
+        "hybrid-25": 0.11195098625748023,
+        "hybrid-50": 0.11195098625748023,
+        "hybrid-75": 0.11195098625748023,
+        "lossless": 1.0,
+        "nra-8": 0.11506709678809106,
+        "safe-zone": 0.7638406893594302,
+        "tput": 0.06791827291474503
+      },
+      "2048": {
+        "absolute": 0.09447183764224396,
+        "anchor": 0.3931996186737272,
+        "bound": 0.09546618557855893,
+        "dense-best": 1.0,
+        "hybrid-25": 0.0955869197907123,
+        "hybrid-50": 0.0955869197907123,
+        "hybrid-75": 0.0955869197907123,
+        "lossless": 1.0,
+        "nra-8": 0.077263416557517,
+        "safe-zone": 0.8003354185685023,
+        "tput": 0.024123553038788
+      }
+    }
+  },
+  "native": {
+    "beijing": {
+      "dataset": {
+        "clients": 12,
+        "d": 122,
+        "hours": 35064,
+        "calibration_hours": 8766,
+        "scored_hours": 18480,
+        "source_predictors": 31,
+        "rows_with_label": 216639,
+        "positive_fraction": 0.37843139970180806,
+        "missing_labels": 5121
+      },
+      "methods": {
+        "dense-best": {
+          "bytes": 59657.2,
+          "total": 82385.0,
+          "waves": 1.518181818181818,
+          "latency_ns": 358340.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.0,
+          "total_ratio": 1.0,
+          "sd_bytes_ratio": 0.0,
+          "wins_vs_dense": 0,
+          "range": [
+            1.0,
+            1.0
+          ]
+        },
+        "tput": {
+          "bytes": 40657.2,
+          "total": 63385.0,
+          "waves": 5.518181818181818,
+          "latency_ns": 475640.0,
+          "cert": 0.0,
+          "bytes_ratio": 0.6814293091268857,
+          "total_ratio": 0.7693386012654946,
+          "sd_bytes_ratio": 0.021983071455999686,
+          "wins_vs_dense": 5,
+          "range": [
+            0.6618309407736037,
+            0.719169658290121
+          ]
+        },
+        "nra-8": {
+          "bytes": 20706.8,
+          "total": 43434.6,
+          "waves": 3.0090909090909093,
+          "latency_ns": 228100.0,
+          "cert": 0.0,
+          "bytes_ratio": 0.3470205060326895,
+          "total_ratio": 0.5272089743777466,
+          "sd_bytes_ratio": 0.031504248349350464,
+          "wins_vs_dense": 5,
+          "range": [
+            0.30647256287849395,
+            0.3818395434709634
+          ]
+        },
+        "absolute": {
+          "bytes": 70876.0,
+          "total": 93603.8,
+          "waves": 3.5,
+          "latency_ns": 866070.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.1879821368014145,
+          "total_ratio": 1.1361483365787879,
+          "sd_bytes_ratio": 0.01835416008799694,
+          "wins_vs_dense": 0,
+          "range": [
+            1.1563476644986908,
+            1.2032641935912778
+          ]
+        },
+        "bound": {
+          "bytes": 29116.6,
+          "total": 51844.4,
+          "waves": 3.4272727272727272,
+          "latency_ns": 490060.0,
+          "cert": 0.0,
+          "bytes_ratio": 0.4880818503967328,
+          "total_ratio": 0.6293239942937267,
+          "sd_bytes_ratio": 0.026833424174655496,
+          "wins_vs_dense": 5,
+          "range": [
+            0.4670636460248646,
+            0.5346089291708627
+          ]
+        },
+        "hybrid-25": {
+          "bytes": 29086.4,
+          "total": 51814.2,
+          "waves": 3.4272727272727272,
+          "latency_ns": 833080.0,
+          "cert": 0.0,
+          "bytes_ratio": 0.4875740584388931,
+          "total_ratio": 0.6289581085939193,
+          "sd_bytes_ratio": 0.028413665176350453,
+          "wins_vs_dense": 5,
+          "range": [
+            0.4656129282569457,
+            0.5370762000671366
+          ]
+        },
+        "safe-zone": {
+          "bytes": 122175.6,
+          "total": 144903.4,
+          "waves": 3.9636363636363634,
+          "latency_ns": 565910.0,
+          "cert": 0.02727272727272727,
+          "bytes_ratio": 2.048195685618076,
+          "total_ratio": 1.758973932610374,
+          "sd_bytes_ratio": 0.08442666792822609,
+          "wins_vs_dense": 0,
+          "range": [
+            1.9138080042547534,
+            2.111715516513219
+          ]
+        },
+        "anchor": {
+          "bytes": 63185.2,
+          "total": 85913.0,
+          "waves": 3.4272727272727272,
+          "latency_ns": 435040.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.0591404836780192,
+          "total_ratio": 1.0428239397359087,
+          "sd_bytes_ratio": 0.0004389807928841579,
+          "wins_vs_dense": 0,
+          "range": [
+            1.0586358197048265,
+            1.0595996283469888
+          ]
+        }
+      },
+      "prediction": {
+        "ba": 0.9242373349646951,
+        "stump": 0.924660603261449,
+        "brier": 0.06309958560239613,
+        "worst": 0.9112240638810594
+      },
+      "changed_rounds": 52,
+      "comparable_transitions": 105,
+      "policy": "hybrid-25"
+    },
+    "load": {
+      "dataset": {
+        "clients": 24,
+        "d": 103,
+        "hours": 26304,
+        "calibration_hours": 6576,
+        "scored_hours": 18480,
+        "source_predictors": 27,
+        "rows_with_label": 443520,
+        "positive_fraction": 0.4917049963924964,
+        "missing_labels": 0
+      },
+      "methods": {
+        "dense-best": {
+          "bytes": 84430.2,
+          "total": 130153.4,
+          "waves": 1.2818181818181817,
+          "latency_ns": 549300.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.0,
+          "total_ratio": 1.0,
+          "sd_bytes_ratio": 0.0,
+          "wins_vs_dense": 0,
+          "range": [
+            1.0,
+            1.0
+          ]
+        },
+        "tput": {
+          "bytes": 122281.0,
+          "total": 168004.2,
+          "waves": 5.281818181818181,
+          "latency_ns": 1002570.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.4488213285013172,
+          "total_ratio": 1.2909687105472731,
+          "sd_bytes_ratio": 0.037375779539141715,
+          "wins_vs_dense": 0,
+          "range": [
+            1.4020985095023568,
+            1.4854057034630737
+          ]
+        },
+        "nra-8": {
+          "bytes": 119778.8,
+          "total": 165502.0,
+          "waves": 9.754545454545454,
+          "latency_ns": 983040.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.4151808796081071,
+          "total_ratio": 1.2705496394786224,
+          "sd_bytes_ratio": 0.2765358693289388,
+          "wins_vs_dense": 0,
+          "range": [
+            1.1563797365074033,
+            1.8556637752324923
+          ]
+        },
+        "absolute": {
+          "bytes": 108759.2,
+          "total": 154482.4,
+          "waves": 3.2818181818181813,
+          "latency_ns": 1413710.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.2883104718000191,
+          "total_ratio": 1.1869863014112552,
+          "sd_bytes_ratio": 0.017452864921702428,
+          "wins_vs_dense": 0,
+          "range": [
+            1.2755854242727251,
+            1.3161717991441209
+          ]
+        },
+        "bound": {
+          "bytes": 49076.8,
+          "total": 94800.0,
+          "waves": 3.1909090909090905,
+          "latency_ns": 909270.0,
+          "cert": 0.0,
+          "bytes_ratio": 0.5809842115877875,
+          "total_ratio": 0.7283034293767785,
+          "sd_bytes_ratio": 0.031953929936431404,
+          "wins_vs_dense": 5,
+          "range": [
+            0.5443822447046978,
+            0.6209132917182995
+          ]
+        },
+        "hybrid-25": {
+          "bytes": 48340.2,
+          "total": 94063.4,
+          "waves": 3.1909090909090905,
+          "latency_ns": 1470670.0,
+          "cert": 0.0,
+          "bytes_ratio": 0.5722944726803691,
+          "total_ratio": 0.7226612383280869,
+          "sd_bytes_ratio": 0.03214651252238472,
+          "wins_vs_dense": 5,
+          "range": [
+            0.533368529672914,
+            0.6038889596627561
+          ]
+        },
+        "safe-zone": {
+          "bytes": 199073.4,
+          "total": 244796.6,
+          "waves": 4.172727272727273,
+          "latency_ns": 883250.0,
+          "cert": 0.0,
+          "bytes_ratio": 2.3582873147180594,
+          "total_ratio": 1.8809219481392248,
+          "sd_bytes_ratio": 0.029556561609468412,
+          "wins_vs_dense": 0,
+          "range": [
+            2.3209491933709336,
+            2.385279930887188
+          ]
+        },
+        "anchor": {
+          "bytes": 91486.2,
+          "total": 137209.4,
+          "waves": 3.1909090909090905,
+          "latency_ns": 671980.0,
+          "cert": 0.0,
+          "bytes_ratio": 1.0835960058510363,
+          "total_ratio": 1.054217808741656,
+          "sd_bytes_ratio": 0.001578754256454479,
+          "wins_vs_dense": 0,
+          "range": [
+            1.081716793866608,
+            1.0849782616550045
+          ]
+        }
+      },
+      "prediction": {
+        "ba": 0.8809653166048491,
+        "stump": 0.8599466175359032,
+        "brier": 0.0985732175495285,
+        "worst": 0.36967120181405894
+      },
+      "changed_rounds": 26,
+      "comparable_transitions": 105,
+      "policy": "hybrid-25"
+    }
+  },
+  "tcp": {
+    "rows": 1470,
+    "results": {
+      "beijing": {
+        "loopback": {
+          "absolute": {
+            "median_ms": 2.34525,
+            "q90_ms": 3.74678,
+            "median_pair_ratio": 2.4081473720649686,
+            "median_goodput_kbps": 10957.439267325672,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "anchor": {
+            "median_ms": 2.0806,
+            "q90_ms": 7.350430000000006,
+            "median_pair_ratio": 2.0604975613409096,
+            "median_goodput_kbps": 11240.78251464606,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "dense-best": {
+            "median_ms": 1.1309,
+            "q90_ms": 2.6128800000000014,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 19349.653354504215,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "hybrid-25": {
+            "median_ms": 1.99835,
+            "q90_ms": 4.13539,
+            "median_pair_ratio": 1.8953265424754548,
+            "median_goodput_kbps": 4712.867333275718,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "nra-8": {
+            "median_ms": 2.5083,
+            "q90_ms": 5.490900000000001,
+            "median_pair_ratio": 2.1002113896307706,
+            "median_goodput_kbps": 4106.181757083579,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "safe-zone": {
+            "median_ms": 2.188,
+            "q90_ms": 3.1439100000000004,
+            "median_pair_ratio": 1.7629168111182525,
+            "median_goodput_kbps": 20996.067339360314,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 3.1776,
+            "q90_ms": 3.90868,
+            "median_pair_ratio": 2.982201452609125,
+            "median_goodput_kbps": 4281.557194053383,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 6.0
+          }
+        },
+        "2ms-100Mbps": {
+          "absolute": {
+            "median_ms": 8.530149999999999,
+            "q90_ms": 9.17296,
+            "median_pair_ratio": 1.9942626524363103,
+            "median_goodput_kbps": 3090.657375049931,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "anchor": {
+            "median_ms": 7.7726,
+            "q90_ms": 9.029029999999999,
+            "median_pair_ratio": 1.892517151752204,
+            "median_goodput_kbps": 3068.805611637642,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "dense-best": {
+            "median_ms": 4.438,
+            "q90_ms": 5.649590000000002,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 5006.3723404509465,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "hybrid-25": {
+            "median_ms": 8.09295,
+            "q90_ms": 10.75528,
+            "median_pair_ratio": 2.1589618780253996,
+            "median_goodput_kbps": 1064.4644508109586,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "nra-8": {
+            "median_ms": 7.8633500000000005,
+            "q90_ms": 11.926780000000003,
+            "median_pair_ratio": 2.0406029960209002,
+            "median_goodput_kbps": 1079.7887191601349,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "safe-zone": {
+            "median_ms": 9.291250000000002,
+            "q90_ms": 11.49169,
+            "median_pair_ratio": 2.3269540385888354,
+            "median_goodput_kbps": 4834.504826955113,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 12.06645,
+            "q90_ms": 15.137070000000003,
+            "median_pair_ratio": 2.8951149472232545,
+            "median_goodput_kbps": 1110.4832498934547,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 6.0
+          }
+        },
+        "2ms-1Mbps": {
+          "absolute": {
+            "median_ms": 9.9893,
+            "q90_ms": 12.100240000000001,
+            "median_pair_ratio": 1.8069611794035962,
+            "median_goodput_kbps": 2558.9411342102676,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "anchor": {
+            "median_ms": 9.62135,
+            "q90_ms": 11.21696,
+            "median_pair_ratio": 1.71696646459025,
+            "median_goodput_kbps": 2386.193547414883,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "dense-best": {
+            "median_ms": 6.2266,
+            "q90_ms": 6.63248,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 3549.5168355223727,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "hybrid-25": {
+            "median_ms": 9.5923,
+            "q90_ms": 10.94243,
+            "median_pair_ratio": 1.6389150539865942,
+            "median_goodput_kbps": 1096.946078138215,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "nra-8": {
+            "median_ms": 8.943349999999999,
+            "q90_ms": 12.760780000000002,
+            "median_pair_ratio": 1.6249146627709015,
+            "median_goodput_kbps": 1000.0629393538418,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "safe-zone": {
+            "median_ms": 13.28985,
+            "q90_ms": 15.660770000000001,
+            "median_pair_ratio": 2.323641839801695,
+            "median_goodput_kbps": 3401.2318007522736,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 14.07255,
+            "q90_ms": 15.62076,
+            "median_pair_ratio": 2.4470357704867047,
+            "median_goodput_kbps": 1059.4839558297422,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 6.0
+          }
+        },
+        "20ms-100Mbps": {
+          "absolute": {
+            "median_ms": 45.436099999999996,
+            "q90_ms": 46.64196,
+            "median_pair_ratio": 2.051180088213063,
+            "median_goodput_kbps": 590.8953953061705,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "anchor": {
+            "median_ms": 44.1287,
+            "q90_ms": 46.718270000000004,
+            "median_pair_ratio": 2.0705292126415036,
+            "median_goodput_kbps": 541.5108142167112,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "dense-best": {
+            "median_ms": 22.332250000000002,
+            "q90_ms": 22.99567,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 992.956645551846,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "hybrid-25": {
+            "median_ms": 44.6607,
+            "q90_ms": 46.2648,
+            "median_pair_ratio": 2.0584620666290627,
+            "median_goodput_kbps": 233.10442946770078,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "nra-8": {
+            "median_ms": 44.03335,
+            "q90_ms": 60.32408000000002,
+            "median_pair_ratio": 2.010652499220504,
+            "median_goodput_kbps": 211.4769392875405,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "safe-zone": {
+            "median_ms": 45.3414,
+            "q90_ms": 55.5276,
+            "median_pair_ratio": 2.4564526867901586,
+            "median_goodput_kbps": 996.5994026728372,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 67.1477,
+            "q90_ms": 69.58056,
+            "median_pair_ratio": 3.0724126327565138,
+            "median_goodput_kbps": 204.97850947105485,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 6.0
+          }
+        },
+        "20ms-1Mbps": {
+          "absolute": {
+            "median_ms": 46.1875,
+            "q90_ms": 48.3948,
+            "median_pair_ratio": 1.9526638370304084,
+            "median_goodput_kbps": 571.5252012053843,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "anchor": {
+            "median_ms": 45.7918,
+            "q90_ms": 49.969910000000006,
+            "median_pair_ratio": 1.9548358745220447,
+            "median_goodput_kbps": 526.8944752183055,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "dense-best": {
+            "median_ms": 24.200200000000002,
+            "q90_ms": 25.32856,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 919.3141572414665,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "hybrid-25": {
+            "median_ms": 45.29385,
+            "q90_ms": 46.7568,
+            "median_pair_ratio": 1.8976449763433714,
+            "median_goodput_kbps": 234.98872682664637,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "nra-8": {
+            "median_ms": 44.8673,
+            "q90_ms": 62.501570000000015,
+            "median_pair_ratio": 1.8619583033320666,
+            "median_goodput_kbps": 206.88752363085194,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "safe-zone": {
+            "median_ms": 50.25565,
+            "q90_ms": 61.80921,
+            "median_pair_ratio": 2.477539422047228,
+            "median_goodput_kbps": 899.1161582584534,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 68.75614999999999,
+            "q90_ms": 71.31836,
+            "median_pair_ratio": 2.9076474431625337,
+            "median_goodput_kbps": 202.5530299273837,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 6.0
+          }
+        }
+      },
+      "load": {
+        "loopback": {
+          "absolute": {
+            "median_ms": 4.2496,
+            "q90_ms": 5.15033,
+            "median_pair_ratio": 3.2555691478741084,
+            "median_goodput_kbps": 9217.611749359658,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "anchor": {
+            "median_ms": 3.4959000000000002,
+            "q90_ms": 5.269820000000001,
+            "median_pair_ratio": 2.7471212583211733,
+            "median_goodput_kbps": 9537.868619376903,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "dense-best": {
+            "median_ms": 1.3880000000000001,
+            "q90_ms": 2.884590000000001,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 21718.79696953152,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 3.3129,
+            "q90_ms": 4.52712,
+            "median_pair_ratio": 2.6316403635714423,
+            "median_goodput_kbps": 4519.912176114909,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "nra-8": {
+            "median_ms": 8.010200000000001,
+            "q90_ms": 14.99437,
+            "median_pair_ratio": 5.539838028346471,
+            "median_goodput_kbps": 4008.5567401355856,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          },
+          "safe-zone": {
+            "median_ms": 4.13725,
+            "q90_ms": 5.06822,
+            "median_pair_ratio": 3.0328053759699425,
+            "median_goodput_kbps": 17619.86197826018,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 6.86505,
+            "q90_ms": 16.916570000000007,
+            "median_pair_ratio": 5.648607581522798,
+            "median_goodput_kbps": 5996.060982865089,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          }
+        },
+        "2ms-100Mbps": {
+          "absolute": {
+            "median_ms": 8.935649999999999,
+            "q90_ms": 11.753670000000001,
+            "median_pair_ratio": 2.568034319904759,
+            "median_goodput_kbps": 4217.794232057402,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "anchor": {
+            "median_ms": 8.3712,
+            "q90_ms": 9.39076,
+            "median_pair_ratio": 2.557941864565455,
+            "median_goodput_kbps": 3920.4411938990424,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "dense-best": {
+            "median_ms": 3.4693,
+            "q90_ms": 5.28366,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 8999.578679725102,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 8.69455,
+            "q90_ms": 9.892420000000001,
+            "median_pair_ratio": 2.612329968380224,
+            "median_goodput_kbps": 1698.3117131249478,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "nra-8": {
+            "median_ms": 15.94795,
+            "q90_ms": 39.18789,
+            "median_pair_ratio": 4.915902257774853,
+            "median_goodput_kbps": 1710.0716503561766,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          },
+          "safe-zone": {
+            "median_ms": 11.0145,
+            "q90_ms": 12.32437,
+            "median_pair_ratio": 3.2261242944102415,
+            "median_goodput_kbps": 6565.402437906996,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 16.18975,
+            "q90_ms": 17.81993,
+            "median_pair_ratio": 4.350365294223584,
+            "median_goodput_kbps": 2676.8698289576582,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          }
+        },
+        "2ms-1Mbps": {
+          "absolute": {
+            "median_ms": 10.2243,
+            "q90_ms": 13.91733,
+            "median_pair_ratio": 2.2856235341848885,
+            "median_goodput_kbps": 3667.038057701836,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "anchor": {
+            "median_ms": 9.938600000000001,
+            "q90_ms": 11.975510000000002,
+            "median_pair_ratio": 2.261976578187446,
+            "median_goodput_kbps": 3334.762003641322,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "dense-best": {
+            "median_ms": 4.4701,
+            "q90_ms": 7.39785,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 6765.4641282310695,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 8.8286,
+            "q90_ms": 9.371179999999999,
+            "median_pair_ratio": 1.9508282317562062,
+            "median_goodput_kbps": 1674.1170369683518,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "nra-8": {
+            "median_ms": 17.834899999999998,
+            "q90_ms": 35.96360000000001,
+            "median_pair_ratio": 4.233085785078505,
+            "median_goodput_kbps": 1508.7092923452647,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          },
+          "safe-zone": {
+            "median_ms": 14.2667,
+            "q90_ms": 15.42972,
+            "median_pair_ratio": 2.9501042569779425,
+            "median_goodput_kbps": 5156.0272774234445,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 15.4789,
+            "q90_ms": 23.373220000000007,
+            "median_pair_ratio": 3.593248572325056,
+            "median_goodput_kbps": 2921.88291924489,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          }
+        },
+        "20ms-100Mbps": {
+          "absolute": {
+            "median_ms": 36.777249999999995,
+            "q90_ms": 44.81758000000001,
+            "median_pair_ratio": 3.0327861237352165,
+            "median_goodput_kbps": 1027.417930236143,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "anchor": {
+            "median_ms": 36.1621,
+            "q90_ms": 39.377370000000006,
+            "median_pair_ratio": 3.008608917486433,
+            "median_goodput_kbps": 902.3608397484172,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "dense-best": {
+            "median_ms": 12.133199999999999,
+            "q90_ms": 20.33783000000001,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 2434.41436756667,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 36.1792,
+            "q90_ms": 37.84303,
+            "median_pair_ratio": 2.9851194184135963,
+            "median_goodput_kbps": 418.08155201095076,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "nra-8": {
+            "median_ms": 64.0666,
+            "q90_ms": 162.55365000000003,
+            "median_pair_ratio": 5.316152905659588,
+            "median_goodput_kbps": 379.7048137318015,
+            "median_server_us": 7812.5,
+            "median_max_client_us": 15625.0,
+            "median_waves": 5.0
+          },
+          "safe-zone": {
+            "median_ms": 46.8705,
+            "q90_ms": 47.92031,
+            "median_pair_ratio": 3.858868396082165,
+            "median_goodput_kbps": 1541.7014031901035,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 62.2007,
+            "q90_ms": 72.27283000000001,
+            "median_pair_ratio": 5.026226493564258,
+            "median_goodput_kbps": 721.5907827151423,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          }
+        },
+        "20ms-1Mbps": {
+          "absolute": {
+            "median_ms": 37.331100000000006,
+            "q90_ms": 46.54361000000001,
+            "median_pair_ratio": 2.7836501680803885,
+            "median_goodput_kbps": 1010.576616688787,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "anchor": {
+            "median_ms": 37.07405,
+            "q90_ms": 38.887840000000004,
+            "median_pair_ratio": 2.8008362922393957,
+            "median_goodput_kbps": 874.1778822968404,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "dense-best": {
+            "median_ms": 13.43555,
+            "q90_ms": 21.90849000000001,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 2240.308745779547,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 36.301,
+            "q90_ms": 38.40978,
+            "median_pair_ratio": 2.7450253531381468,
+            "median_goodput_kbps": 422.2530829404833,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          },
+          "nra-8": {
+            "median_ms": 63.2207,
+            "q90_ms": 163.18390000000005,
+            "median_pair_ratio": 4.759198802378875,
+            "median_goodput_kbps": 382.48803263346326,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 5.0
+          },
+          "safe-zone": {
+            "median_ms": 50.9247,
+            "q90_ms": 56.02179,
+            "median_pair_ratio": 3.7862315782567486,
+            "median_goodput_kbps": 1422.4041677871987,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 4.0
+          },
+          "tput": {
+            "median_ms": 63.437799999999996,
+            "q90_ms": 73.86581000000001,
+            "median_pair_ratio": 4.646691763870319,
+            "median_goodput_kbps": 689.1293446427728,
+            "median_server_us": 0.0,
+            "median_max_client_us": 7812.5,
+            "median_waves": 5.0
+          }
+        }
+      },
+      "wide-gradual": {
+        "loopback": {
+          "absolute": {
+            "median_ms": 1.318,
+            "q90_ms": 2.0754,
+            "median_pair_ratio": 1.2247461707143281,
+            "median_goodput_kbps": 2715.8493112768815,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "anchor": {
+            "median_ms": 1.27895,
+            "q90_ms": 3.8781500000000015,
+            "median_pair_ratio": 1.2648342836778332,
+            "median_goodput_kbps": 1058.722159704748,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "dense-best": {
+            "median_ms": 0.8280000000000001,
+            "q90_ms": 1.8843300000000005,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 154984.0829418011,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 1.24715,
+            "q90_ms": 4.16571,
+            "median_pair_ratio": 1.6273599522490116,
+            "median_goodput_kbps": 3258.628474536074,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "nra-8": {
+            "median_ms": 0.80945,
+            "q90_ms": 37.01093000000005,
+            "median_pair_ratio": 1.6053179365677943,
+            "median_goodput_kbps": 3055.87029062176,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "safe-zone": {
+            "median_ms": 0.8805000000000001,
+            "q90_ms": 2.4448700000000003,
+            "median_pair_ratio": 1.0553674806948534,
+            "median_goodput_kbps": 1057.0668620264953,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "tput": {
+            "median_ms": 2.664,
+            "q90_ms": 5.747950000000003,
+            "median_pair_ratio": 3.0152170547853006,
+            "median_goodput_kbps": 879.4470267635288,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          }
+        },
+        "2ms-100Mbps": {
+          "absolute": {
+            "median_ms": 1.9793,
+            "q90_ms": 7.54359,
+            "median_pair_ratio": 0.9762827194984555,
+            "median_goodput_kbps": 693.9751632959458,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "anchor": {
+            "median_ms": 3.0585500000000003,
+            "q90_ms": 7.6199900000000005,
+            "median_pair_ratio": 1.061144052058758,
+            "median_goodput_kbps": 205.57033836342237,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "dense-best": {
+            "median_ms": 2.558,
+            "q90_ms": 4.64845,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 44933.62115620404,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 4.25805,
+            "q90_ms": 8.412930000000001,
+            "median_pair_ratio": 1.2485635596596616,
+            "median_goodput_kbps": 654.1486522534458,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "nra-8": {
+            "median_ms": 2.3047,
+            "q90_ms": 227.62679000000034,
+            "median_pair_ratio": 1.0341961955153764,
+            "median_goodput_kbps": 791.6369200644147,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "safe-zone": {
+            "median_ms": 2.57375,
+            "q90_ms": 9.132410000000002,
+            "median_pair_ratio": 1.0096001267456098,
+            "median_goodput_kbps": 159.3565170872259,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "tput": {
+            "median_ms": 6.38145,
+            "q90_ms": 12.163610000000002,
+            "median_pair_ratio": 2.876136189880478,
+            "median_goodput_kbps": 295.7888231390682,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          }
+        },
+        "2ms-1Mbps": {
+          "absolute": {
+            "median_ms": 2.68965,
+            "q90_ms": 30.44779,
+            "median_pair_ratio": 0.11478834696464063,
+            "median_goodput_kbps": 631.7519561789097,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "anchor": {
+            "median_ms": 2.30535,
+            "q90_ms": 28.49885,
+            "median_pair_ratio": 0.09844879279790877,
+            "median_goodput_kbps": 224.67515547907402,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "dense-best": {
+            "median_ms": 23.6226,
+            "q90_ms": 25.16469,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 5011.349751378244,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 8.25205,
+            "q90_ms": 25.340790000000002,
+            "median_pair_ratio": 0.33779830157817137,
+            "median_goodput_kbps": 704.3899188495154,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "nra-8": {
+            "median_ms": 2.3047500000000003,
+            "q90_ms": 246.53661000000037,
+            "median_pair_ratio": 0.09775638896802061,
+            "median_goodput_kbps": 794.0593013452881,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "safe-zone": {
+            "median_ms": 3.6446,
+            "q90_ms": 77.38399000000001,
+            "median_pair_ratio": 0.15448814665844063,
+            "median_goodput_kbps": 165.6278309974808,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "tput": {
+            "median_ms": 7.53935,
+            "q90_ms": 15.848170000000003,
+            "median_pair_ratio": 0.31985123893580925,
+            "median_goodput_kbps": 268.5202029286489,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          }
+        },
+        "20ms-100Mbps": {
+          "absolute": {
+            "median_ms": 11.35365,
+            "q90_ms": 45.28296,
+            "median_pair_ratio": 1.01597706888391,
+            "median_goodput_kbps": 112.5980448686544,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "anchor": {
+            "median_ms": 12.287749999999999,
+            "q90_ms": 40.45752000000001,
+            "median_pair_ratio": 1.0285140107922834,
+            "median_goodput_kbps": 35.694392522640385,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "dense-best": {
+            "median_ms": 11.9872,
+            "q90_ms": 21.883319999999998,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 10181.236205743393,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 22.3551,
+            "q90_ms": 41.19260000000001,
+            "median_pair_ratio": 1.0365422257614165,
+            "median_goodput_kbps": 130.03371110006685,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "nra-8": {
+            "median_ms": 11.624649999999999,
+            "q90_ms": 1359.379520000002,
+            "median_pair_ratio": 1.0220869141691065,
+            "median_goodput_kbps": 156.92081358968022,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "safe-zone": {
+            "median_ms": 12.5936,
+            "q90_ms": 52.31246000000001,
+            "median_pair_ratio": 1.046772141337982,
+            "median_goodput_kbps": 26.356730646931943,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "tput": {
+            "median_ms": 34.5922,
+            "q90_ms": 67.47699,
+            "median_pair_ratio": 2.9967905426005537,
+            "median_goodput_kbps": 52.83724647143566,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          }
+        },
+        "20ms-1Mbps": {
+          "absolute": {
+            "median_ms": 11.3397,
+            "q90_ms": 65.77502,
+            "median_pair_ratio": 0.3483136925655831,
+            "median_goodput_kbps": 112.90080062085974,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "anchor": {
+            "median_ms": 12.3275,
+            "q90_ms": 62.45965000000001,
+            "median_pair_ratio": 0.3799917406749918,
+            "median_goodput_kbps": 35.52150198862262,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "dense-best": {
+            "median_ms": 32.77065,
+            "q90_ms": 45.094120000000004,
+            "median_pair_ratio": 1.0,
+            "median_goodput_kbps": 3519.4900326503484,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "hybrid-25": {
+            "median_ms": 35.140100000000004,
+            "q90_ms": 47.46265,
+            "median_pair_ratio": 0.9889952577588619,
+            "median_goodput_kbps": 127.73080997403818,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 2.0
+          },
+          "nra-8": {
+            "median_ms": 11.4069,
+            "q90_ms": 1384.476350000002,
+            "median_pair_ratio": 0.3521455381332629,
+            "median_goodput_kbps": 159.90347130251024,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "safe-zone": {
+            "median_ms": 11.60165,
+            "q90_ms": 119.21650000000002,
+            "median_pair_ratio": 0.3594504986464381,
+            "median_goodput_kbps": 26.572535451397563,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 1.0
+          },
+          "tput": {
+            "median_ms": 34.03725,
+            "q90_ms": 71.64062,
+            "median_pair_ratio": 1.0495290897476113,
+            "median_goodput_kbps": 51.87607294661046,
+            "median_server_us": 0.0,
+            "median_max_client_us": 0.0,
+            "median_waves": 3.0
+          }
+        }
+      }
+    }
+  },
+  "break_even": {
+    "beijing": {
+      "positive_rounds": 6,
+      "median_rtt_ms_1Mbps": 1.04
+    },
+    "load": {
+      "positive_rounds": 6,
+      "median_rtt_ms_1Mbps": 0.196
+    },
+    "wide-gradual": {
+      "positive_rounds": 3,
+      "median_rtt_ms_1Mbps": 20.584
+    }
+  },
+  "low_rate": {
+    "rows": 336,
+    "results": {
+      "beijing": {
+        "0.05": {
+          "dense-best": 41.0416,
+          "hybrid-25": 25.434150000000002,
+          "nra-8": 23.2462,
+          "hybrid-25_ratio": 0.6120775419960178,
+          "nra-8_ratio": 0.5597499516640345
+        },
+        "0.1": {
+          "dense-best": 22.3851,
+          "hybrid-25": 16.4405,
+          "nra-8": 15.35305,
+          "hybrid-25_ratio": 0.7198375189960613,
+          "nra-8_ratio": 0.655113714856642
+        },
+        "0.25": {
+          "dense-best": 11.0868,
+          "hybrid-25": 11.1858,
+          "nra-8": 10.471599999999999,
+          "hybrid-25_ratio": 0.9960109268715072,
+          "nra-8_ratio": 0.9484351574691847
+        },
+        "0.5": {
+          "dense-best": 7.4224,
+          "hybrid-25": 9.083,
+          "nra-8": 8.99985,
+          "hybrid-25_ratio": 1.2343510256288637,
+          "nra-8_ratio": 1.209713186398731
+        }
+      },
+      "load": {
+        "0.05": {
+          "dense-best": 31.1,
+          "hybrid-25": 33.7418,
+          "nra-8": 46.6659,
+          "hybrid-25_ratio": 1.026348456866863,
+          "nra-8_ratio": 1.48480145338754
+        },
+        "0.1": {
+          "dense-best": 16.438499999999998,
+          "hybrid-25": 19.666449999999998,
+          "nra-8": 24.320549999999997,
+          "hybrid-25_ratio": 1.1604177603036638,
+          "nra-8_ratio": 1.5461879528376898
+        },
+        "0.25": {
+          "dense-best": 8.0412,
+          "hybrid-25": 11.83795,
+          "nra-8": 18.6456,
+          "hybrid-25_ratio": 1.5016804598889741,
+          "nra-8_ratio": 2.375204059623951
+        },
+        "0.5": {
+          "dense-best": 5.318350000000001,
+          "hybrid-25": 9.530100000000001,
+          "nra-8": 23.5312,
+          "hybrid-25_ratio": 1.9135333931060523,
+          "nra-8_ratio": 3.8493417037410964
+        }
+      }
+    }
+  },
+  "endpoint": {
+    "rows": 168,
+    "results": [
+      [
+        "Beijing",
+        "Best dense",
+        "42.05",
+        "2.25",
+        "2814",
+        "340"
+      ],
+      [
+        "Beijing",
+        "Frozen policy",
+        "45.95",
+        "4.01",
+        "4841",
+        "537"
+      ],
+      [
+        "Beijing",
+        "Batched NRA",
+        "45.94",
+        "4.05",
+        "4949",
+        "535"
+      ],
+      [
+        "Electricity",
+        "Best dense",
+        "74.11",
+        "0.61",
+        "2436",
+        "248"
+      ],
+      [
+        "Electricity",
+        "Frozen policy",
+        "96.92",
+        "3.00",
+        "8142",
+        "535"
+      ],
+      [
+        "Electricity",
+        "Batched NRA",
+        "162.42",
+        "5.55",
+        "15985",
+        "1116"
+      ]
+    ]
+  },
+  "policy_hash": "4b6d0cf405ba1587e5e08b41caf1e1f9fcff507903a0d5d326cfa9028872888d",
+  "policy": {
+    "selection": {
+      "medium": "hybrid-25",
+      "small": "dense-best",
+      "wide": "hybrid-25"
+    },
+    "development_ratios": {
+      "medium": {
+        "dense-best": 1.0,
+        "hybrid-25": 0.9583598829154739,
+        "hybrid-50": 1.1242260146232554,
+        "hybrid-75": 1.147577806848527,
+        "anchor": 1.0944557145216365
+      },
+      "small": {
+        "dense-best": 1.0,
+        "hybrid-25": 1.0031000426388184,
+        "hybrid-50": 1.0181624393640132,
+        "hybrid-75": 1.1768758377712356,
+        "anchor": 1.1992956182212267
+      },
+      "wide": {
+        "dense-best": 1.0,
+        "hybrid-25": 0.6246880900444374,
+        "hybrid-50": 0.629129434267012,
+        "hybrid-75": 0.6291159605090102,
+        "anchor": 0.8046567200279002
+      }
+    },
+    "development_cases": {
+      "medium": 31,
+      "small": 12,
+      "wide": 16
+    },
+    "development_metrics_sha256": "33443a2e9f55066fe081c36ad727659c04931f0755befe251ee43bf010b0cf5f",
+    "alternatives": [
+      "dense-best",
+      "hybrid-25",
+      "hybrid-50",
+      "hybrid-75",
+      "anchor"
+    ],
+    "fit_rule": "Mean within case across seeds, then equal-weight mean across cases. First on ties."
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "policy": {
+    "selection": {
+      "narrow": {
+        "medium": "dense-best",
+        "small": "dense-best",
+        "wide": "hybrid-25"
+      },
+      "moderate": {
+        "medium": "dense-best",
+        "small": "dense-best",
+        "wide": "hybrid-25"
+      },
+      "interactive": {
+        "medium": "dense-best",
+        "small": "dense-best",
+        "wide": "dense-best"
+      }
+    },
+    "development_objectives": {
+      "narrow": {
+        "medium": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.0305533883419022,
+          "nra-8": 2.4369761506173653,
+          "partial-zone": 2.4397281864860734
+        },
+        "small": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.0030449888667028,
+          "nra-8": 1.650695448522648,
+          "partial-zone": 2.3259174939866885
+        },
+        "wide": {
+          "dense-best": 1.0,
+          "hybrid-25": 0.6771753074435384,
+          "nra-8": 4.117510483874809,
+          "partial-zone": 1.9391620849568316
+        }
+      },
+      "moderate": {
+        "medium": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.2311248744218086,
+          "nra-8": 3.4987699989464276,
+          "partial-zone": 2.053799360764627
+        },
+        "small": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.000594504326015,
+          "nra-8": 1.7200650077802777,
+          "partial-zone": 2.0487434343301505
+        },
+        "wide": {
+          "dense-best": 1.0,
+          "hybrid-25": 0.9460740220373623,
+          "nra-8": 7.247932637310604,
+          "partial-zone": 1.855283990000662
+        }
+      },
+      "interactive": {
+        "medium": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.370565993609652,
+          "nra-8": 4.037065869861171,
+          "partial-zone": 1.9714694223248874
+        },
+        "small": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.0000249329942836,
+          "nra-8": 1.747405872952622,
+          "partial-zone": 1.9962728027058223
+        },
+        "wide": {
+          "dense-best": 1.0,
+          "hybrid-25": 1.4272640943373796,
+          "nra-8": 13.569196561447379,
+          "partial-zone": 1.9818065380981533
+        }
+      }
+    },
+    "profiles": {
+      "narrow": [
+        0.25,
+        2.0,
+        1.0
+      ],
+      "moderate": [
+        2.0,
+        5.0,
+        3.0
+      ],
+      "interactive": [
+        20.0,
+        14.0,
+        7.0
+      ]
+    },
+    "objective": "Mean across cases of paired median and p90 normalized modeled time, equal weight",
+    "development_trace_sha256": "3e204d0a45db8e700f2c6c09f497663f3b8688262cf6bef0a2fa35e7165eadf4",
+    "alternatives": [
+      "dense-best",
+      "hybrid-25",
+      "nra-8",
+      "partial-zone"
+    ]
+  },
+  "policy_sha256": "34dbb70831308aee9d67ccaffafc979612b527a75ea9eb453c9a57b2c09b7991",
+  "rank_rounds": 70,
+  "verified_frames": 258336,
+  "verified_network_rounds": 1680,
+  "native": {
+    "bike": {
+      "stats": [
+        0.7861810182268674,
+        0.8190972222222221,
+        0.14972075890138664,
+        0.7436507936507937
+      ],
+      "labels": 141120,
+      "pos": 0.6808815192743765,
+      "clients": 24,
+      "d": 107
+    },
+    "bike-wide": {
+      "stats": [
+        0.7859501420871718,
+        0.8190972222222221,
+        0.14999908498986056,
+        0.7424603174603174
+      ],
+      "labels": 141120,
+      "pos": 0.6808815192743765,
+      "clients": 24,
+      "d": 547
+    }
+  },
+  "ablations": {
+    "bike": {
+      "dense-best": {
+        "bytes": 4748.142857142857,
+        "fetched": 0.0,
+        "repairs": 0.0,
+        "rounds_of_messages": 1.542857142857143
+      },
+      "frozen-zone": {
+        "bytes": 6610.114285714286,
+        "fetched": 2003.5714285714287,
+        "repairs": 146.74285714285713,
+        "rounds_of_messages": 2.4
+      },
+      "full-zone": {
+        "bytes": 8919.57142857143,
+        "fetched": 2201.1428571428573,
+        "repairs": 615.0285714285715,
+        "rounds_of_messages": 2.857142857142857
+      },
+      "hybrid-25": {
+        "bytes": 3438.542857142857,
+        "fetched": 579.7428571428571,
+        "repairs": 0.0,
+        "rounds_of_messages": 2.4
+      },
+      "nra-8": {
+        "bytes": 4045.714285714286,
+        "fetched": 0.0,
+        "repairs": 0.0,
+        "rounds_of_messages": 4.057142857142857
+      },
+      "partial-zone": {
+        "bytes": 9332.42857142857,
+        "fetched": 2091.3714285714286,
+        "repairs": 615.0285714285715,
+        "rounds_of_messages": 2.857142857142857
+      }
+    },
+    "bike-wide": {
+      "dense-best": {
+        "bytes": 17281.85714285714,
+        "fetched": 0.0,
+        "repairs": 0.0,
+        "rounds_of_messages": 1.5714285714285714
+      },
+      "frozen-zone": {
+        "bytes": 21652.285714285714,
+        "fetched": 10875.371428571429,
+        "repairs": 424.42857142857144,
+        "rounds_of_messages": 2.4285714285714284
+      },
+      "full-zone": {
+        "bytes": 25339.85714285714,
+        "fetched": 11252.57142857143,
+        "repairs": 1439.8857142857144,
+        "rounds_of_messages": 2.857142857142857
+      },
+      "hybrid-25": {
+        "bytes": 8401.8,
+        "fetched": 1918.942857142857,
+        "repairs": 0.0,
+        "rounds_of_messages": 2.4285714285714284
+      },
+      "nra-8": {
+        "bytes": 8103.685714285714,
+        "fetched": 0.0,
+        "repairs": 0.0,
+        "rounds_of_messages": 7.914285714285715
+      },
+      "partial-zone": {
+        "bytes": 26486.914285714287,
+        "fetched": 11083.457142857143,
+        "repairs": 1439.8857142857144,
+        "rounds_of_messages": 2.857142857142857
+      }
+    }
+  },
+  "online": {
+    "profiles": {
+      "bike": {
+        "narrow": {
+          "methods": {
+            "dense-best": {
+              "median_ms": 171.7865999962669,
+              "p90_ms": 184.6389799931785,
+              "median_ratio": 1.0,
+              "mean_bytes": 4748.142857142857,
+              "p90_ratio": 1.0
+            },
+            "hybrid-25": {
+              "median_ms": 128.0560000013793,
+              "p90_ms": 183.14361000375357,
+              "median_ratio": 0.771186785743184,
+              "mean_bytes": 3438.542857142857,
+              "p90_ratio": 0.9920040598081903
+            },
+            "nra-8": {
+              "median_ms": 157.9889499989804,
+              "p90_ms": 202.99782999209128,
+              "median_ratio": 0.9068192025528383,
+              "mean_bytes": 4045.714285714286,
+              "p90_ratio": 1.1343078790979608
+            },
+            "partial-zone": {
+              "median_ms": 332.7583000063896,
+              "p90_ms": 356.3629699900048,
+              "median_ratio": 1.9657335853023041,
+              "mean_bytes": 9332.42857142857,
+              "p90_ratio": 2.2303096300757086
+            }
+          },
+          "policy": "dense-best",
+          "absolute_quantile_ratios": [
+            1.0,
+            1.0
+          ],
+          "rtt_observed_quants": [
+            1.229323211519876,
+            2.010909675253745,
+            2.942829582564047
+          ]
+        },
+        "moderate": {
+          "methods": {
+            "dense-best": {
+              "median_ms": 37.13414998492226,
+              "p90_ms": 44.688829994993284,
+              "median_ratio": 1.0,
+              "mean_bytes": 4748.142857142857,
+              "p90_ratio": 1.0
+            },
+            "hybrid-25": {
+              "median_ms": 40.836099986336194,
+              "p90_ms": 49.88634000183083,
+              "median_ratio": 1.1098123676726224,
+              "mean_bytes": 3438.542857142857,
+              "p90_ratio": 1.245114070572664
+            },
+            "nra-8": {
+              "median_ms": 54.467649999423884,
+              "p90_ms": 69.50369000260253,
+              "median_ratio": 1.4751184420307206,
+              "mean_bytes": 4045.714285714286,
+              "p90_ratio": 1.8455309134468196
+            },
+            "partial-zone": {
+              "median_ms": 72.99929998407606,
+              "p90_ms": 84.20448999677319,
+              "median_ratio": 2.0911517197361382,
+              "mean_bytes": 9332.42857142857,
+              "p90_ratio": 2.754571763974781
+            }
+          },
+          "policy": "dense-best",
+          "absolute_quantile_ratios": [
+            1.0,
+            1.0
+          ],
+          "rtt_observed_quants": [
+            2.6879696345596282,
+            5.032729025761236,
+            7.817101178749323
+          ]
+        },
+        "interactive": {
+          "methods": {
+            "dense-best": {
+              "median_ms": 35.15475001768209,
+              "p90_ms": 49.63811998604797,
+              "median_ratio": 1.0,
+              "mean_bytes": 4748.142857142857,
+              "p90_ratio": 1.0
+            },
+            "hybrid-25": {
+              "median_ms": 50.818350006011315,
+              "p90_ms": 71.04943000304047,
+              "median_ratio": 1.6074507035488765,
+              "mean_bytes": 3438.542857142857,
+              "p90_ratio": 2.1846651957076717
+            },
+            "nra-8": {
+              "median_ms": 80.12384999892674,
+              "p90_ms": 111.19247000024188,
+              "median_ratio": 2.453642937497203,
+              "mean_bytes": 4045.714285714286,
+              "p90_ratio": 3.5293221322549213
+            },
+            "partial-zone": {
+              "median_ms": 65.80265000229701,
+              "p90_ms": 81.3961400068365,
+              "median_ratio": 1.938830013152301,
+              "mean_bytes": 9332.42857142857,
+              "p90_ratio": 3.5078272717099996
+            }
+          },
+          "policy": "dense-best",
+          "absolute_quantile_ratios": [
+            1.0,
+            1.0
+          ],
+          "rtt_observed_quants": [
+            8.605262480639134,
+            14.076367726776216,
+            20.59980707794833
+          ]
+        }
+      },
+      "bike-wide": {
+        "narrow": {
+          "methods": {
+            "dense-best": {
+              "median_ms": 568.5281500045676,
+              "p90_ms": 601.8828999920515,
+              "median_ratio": 1.0,
+              "mean_bytes": 17281.85714285714,
+              "p90_ratio": 1.0
+            },
+            "hybrid-25": {
+              "median_ms": 246.23545000213198,
+              "p90_ms": 575.5894300120417,
+              "median_ratio": 0.4356048014276628,
+              "mean_bytes": 8401.8,
+              "p90_ratio": 0.9991845079717336
+            },
+            "nra-8": {
+              "median_ms": 289.70349999144673,
+              "p90_ms": 460.60093999840325,
+              "median_ratio": 0.5145259123518584,
+              "mean_bytes": 8103.685714285714,
+              "p90_ratio": 0.7942010146360119
+            },
+            "partial-zone": {
+              "median_ms": 901.440099987667,
+              "p90_ms": 1013.572969994857,
+              "median_ratio": 1.5729603107562284,
+              "mean_bytes": 26486.914285714287,
+              "p90_ratio": 1.7649009630765895
+            }
+          },
+          "policy": "hybrid-25",
+          "absolute_quantile_ratios": [
+            0.4331103921593921,
+            0.9563146419671383
+          ],
+          "rtt_observed_quants": [
+            1.1808412594670417,
+            2.0099437660461295,
+            2.902076072240694
+          ]
+        },
+        "moderate": {
+          "methods": {
+            "dense-best": {
+              "median_ms": 93.15305000927765,
+              "p90_ms": 105.80296001571696,
+              "median_ratio": 1.0,
+              "mean_bytes": 17281.85714285714,
+              "p90_ratio": 1.0
+            },
+            "hybrid-25": {
+              "median_ms": 61.55080000462476,
+              "p90_ms": 97.3716499924194,
+              "median_ratio": 0.6740681155863184,
+              "mean_bytes": 8401.8,
+              "p90_ratio": 0.9573921903831947
+            },
+            "nra-8": {
+              "median_ms": 96.99839999666438,
+              "p90_ms": 160.59415999043267,
+              "median_ratio": 1.0471384133784842,
+              "mean_bytes": 8103.685714285714,
+              "p90_ratio": 1.7216590185697735
+            },
+            "partial-zone": {
+              "median_ms": 156.491650006501,
+              "p90_ms": 177.00409999815747,
+              "median_ratio": 1.6966023947554625,
+              "mean_bytes": 26486.914285714287,
+              "p90_ratio": 2.0273110968872827
+            }
+          },
+          "policy": "hybrid-25",
+          "absolute_quantile_ratios": [
+            0.6607491649333496,
+            0.9203112084761609
+          ],
+          "rtt_observed_quants": [
+            2.542523778401125,
+            5.029831298138388,
+            7.664083289460317
+          ]
+        },
+        "interactive": {
+          "methods": {
+            "dense-best": {
+              "median_ms": 42.05625000759028,
+              "p90_ms": 61.11851999012288,
+              "median_ratio": 1.0,
+              "mean_bytes": 17281.85714285714,
+              "p90_ratio": 1.0
+            },
+            "hybrid-25": {
+              "median_ms": 54.737200000090525,
+              "p90_ms": 77.94026000774466,
+              "median_ratio": 1.41607213180765,
+              "mean_bytes": 8401.8,
+              "p90_ratio": 1.7693846307291219
+            },
+            "nra-8": {
+              "median_ms": 144.39185000082944,
+              "p90_ms": 228.4118900046451,
+              "median_ratio": 3.712642308114916,
+              "mean_bytes": 8103.685714285714,
+              "p90_ratio": 5.519102924734769
+            },
+            "partial-zone": {
+              "median_ms": 91.08979998563882,
+              "p90_ms": 109.87742998986505,
+              "median_ratio": 2.157675040007625,
+              "mean_bytes": 26486.914285714287,
+              "p90_ratio": 3.368027593210968
+            }
+          },
+          "policy": "dense-best",
+          "absolute_quantile_ratios": [
+            1.0,
+            1.0
+          ],
+          "rtt_observed_quants": [
+            8.265888816269294,
+            14.069606362322906,
+            20.314532505684863
+          ]
+        }
+      }
+    },
+    "recoveries": [
+      {
+        "case": "bike-block0",
+        "method": "dense-best",
+        "round": 3,
+        "detected": "OSError",
+        "interruption_ms": 9.753699996508658,
+        "reconnect_ms": 732.0980000076815,
+        "retry_ms": 49.121799995191395,
+        "recovery_ms": 790.9734999993816,
+        "up": 4727,
+        "down": 576,
+        "wave_sizes": [
+          [
+            192,
+            4583
+          ],
+          [
+            384,
+            144
+          ]
+        ],
+        "rounds_of_messages": 2,
+        "fetched": 0,
+        "repairs": 0,
+        "reported_violators": 0
+      },
+      {
+        "case": "bike-block0",
+        "method": "hybrid-25",
+        "round": 3,
+        "detected": "OSError",
+        "interruption_ms": 11.791800003265962,
+        "reconnect_ms": 790.5205999850295,
+        "retry_ms": 46.28239999874495,
+        "recovery_ms": 848.5947999870405,
+        "up": 4727,
+        "down": 576,
+        "wave_sizes": [
+          [
+            192,
+            4583
+          ],
+          [
+            384,
+            144
+          ]
+        ],
+        "rounds_of_messages": 2,
+        "fetched": 0,
+        "repairs": 0,
+        "reported_violators": 0
+      },
+      {
+        "case": "bike-block0",
+        "method": "nra-8",
+        "round": 3,
+        "detected": "OSError",
+        "interruption_ms": 8.051999990129843,
+        "reconnect_ms": 665.9269999945536,
+        "retry_ms": 83.40540001518093,
+        "recovery_ms": 757.3843999998644,
+        "up": 3792,
+        "down": 1008,
+        "wave_sizes": [
+          [
+            192,
+            912
+          ],
+          [
+            144,
+            912
+          ],
+          [
+            144,
+            912
+          ],
+          [
+            144,
+            912
+          ],
+          [
+            384,
+            144
+          ]
+        ],
+        "rounds_of_messages": 5,
+        "fetched": 0,
+        "repairs": 0,
+        "reported_violators": 0
+      },
+      {
+        "case": "bike-block0",
+        "method": "partial-zone",
+        "round": 3,
+        "detected": "OSError",
+        "interruption_ms": 10.896199994022027,
+        "reconnect_ms": 802.3534000094514,
+        "retry_ms": 62.66029999824241,
+        "recovery_ms": 875.9099000017159,
+        "up": 4727,
+        "down": 4796,
+        "wave_sizes": [
+          [
+            192,
+            4583
+          ],
+          [
+            4604,
+            144
+          ]
+        ],
+        "rounds_of_messages": 2,
+        "fetched": 0,
+        "repairs": 936,
+        "reported_violators": 0
+      }
+    ]
+  }
+}

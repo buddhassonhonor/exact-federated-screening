@@ -1,0 +1,44 @@
+{
+  "selection": {
+    "medium": "hybrid-25",
+    "small": "dense-best",
+    "wide": "hybrid-25"
+  },
+  "development_ratios": {
+    "medium": {
+      "dense-best": 1.0,
+      "hybrid-25": 0.9583598829154739,
+      "hybrid-50": 1.1242260146232554,
+      "hybrid-75": 1.147577806848527,
+      "anchor": 1.0944557145216365
+    },
+    "small": {
+      "dense-best": 1.0,
+      "hybrid-25": 1.0031000426388184,
+      "hybrid-50": 1.0181624393640132,
+      "hybrid-75": 1.1768758377712356,
+      "anchor": 1.1992956182212267
+    },
+    "wide": {
+      "dense-best": 1.0,
+      "hybrid-25": 0.6246880900444374,
+      "hybrid-50": 0.629129434267012,
+      "hybrid-75": 0.6291159605090102,
+      "anchor": 0.8046567200279002
+    }
+  },
+  "development_cases": {
+    "medium": 31,
+    "small": 12,
+    "wide": 16
+  },
+  "development_metrics_sha256": "33443a2e9f55066fe081c36ad727659c04931f0755befe251ee43bf010b0cf5f",
+  "alternatives": [
+    "dense-best",
+    "hybrid-25",
+    "hybrid-50",
+    "hybrid-75",
+    "anchor"
+  ],
+  "fit_rule": "Mean within case across seeds, then equal-weight mean across cases. First on ties."
+}

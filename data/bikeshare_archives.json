@@ -1,0 +1,90 @@
+{
+  "provider": "https://capitalbikeshare.com/system-data",
+  "terms": "Provider's data license, linked from the system data page",
+  "assets": [
+    {
+      "month": "202201",
+      "name": "202201-capitalbikeshare-tripdata.zip",
+      "member": "202201-capitalbikeshare-tripdata.csv",
+      "sha256": "6c898ef5cf500aff06b03bea0b9c85319cdce82063d884a58af3f2cddf936408",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202201-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202202",
+      "name": "202202-capitalbikeshare-tripdata.zip",
+      "member": "202202-capitalbikeshare-tripdata.csv",
+      "sha256": "247d3d20b4079a78720bcba90daf617277ec29efdc5850c94939359737ba8229",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202202-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202203",
+      "name": "202203-capitalbikeshare-tripdata.zip",
+      "member": "202203-capitalbikeshare-tripdata.csv",
+      "sha256": "7a88513594c68a7a10da40fa54be19894c45ced23e5a145fef29c99841246736",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202203-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202204",
+      "name": "202204-capitalbikeshare-tripdata.zip",
+      "member": "202204-capitalbikeshare-tripdata.csv",
+      "sha256": "03c1c21eb029ffed6a88323973da96ae1108738d5acd839dd73d2d47237d3abc",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202204-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202205",
+      "name": "202205-capitalbikeshare-tripdata.zip",
+      "member": "202205-capitalbikeshare-tripdata.csv",
+      "sha256": "a171d11dbda92f442eb79c02eefeca8291bdcd7b92a75c3e6163297af15c0b41",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202205-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202206",
+      "name": "202206-capitalbikeshare-tripdata.zip",
+      "member": "202206-capitalbikeshare-tripdata.csv",
+      "sha256": "90d223ede75f1f5cf8ab0ded69b7193ee6f3833b949efadffbc5e69802f746d3",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202206-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202207",
+      "name": "202207-capitalbikeshare-tripdata.zip",
+      "member": "202207-capitalbikeshare-tripdata.csv",
+      "sha256": "4a8700fc39278af2b64216d2201f391873f8037c9076e12163d786712751852d",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202207-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202208",
+      "name": "202208-capitalbikeshare-tripdata.zip",
+      "member": "202208-capitalbikeshare-tripdata.csv",
+      "sha256": "1e4cabebe4eb0062158e4f572a7d5efc8178cac432c063bc7e5485d59cc38c5b",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202208-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202209",
+      "name": "202209-capitalbikeshare-tripdata.zip",
+      "member": "202209-capitalbikeshare-tripdata.csv",
+      "sha256": "083af54dbd400168004b91118eab3f3c4b4167bb298c358c127edfa3a163f71c",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202209-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202210",
+      "name": "202210-capitalbikeshare-tripdata.zip",
+      "member": "202210-capitalbikeshare-tripdata.csv",
+      "sha256": "bbad839c75931f255d8dfa6a0a1a55303be1937ed89a447b443f79ac08fdba8d",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202210-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202211",
+      "name": "202211-capitalbikeshare-tripdata.zip",
+      "member": "202211-capitalbikeshare-tripdata.csv",
+      "sha256": "0f2cab4533cf0f48f62800eefaf0e889ab206a6d0570c825fbc153fe8a4d5389",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202211-capitalbikeshare-tripdata.zip"
+    },
+    {
+      "month": "202212",
+      "name": "202212-capitalbikeshare-tripdata.zip",
+      "member": "202212-capitalbikeshare-tripdata.csv",
+      "sha256": "f3044ca2af1e1688c3f305e5806ac256d3c8b327c63726e82523a954cb8ffc97",
+      "url": "https://s3.amazonaws.com/capitalbikeshare-data/202212-capitalbikeshare-tripdata.zip"
+    }
+  ]
+}
